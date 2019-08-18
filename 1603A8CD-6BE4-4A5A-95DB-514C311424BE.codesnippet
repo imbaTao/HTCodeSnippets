@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>llc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#??#&gt; *)&lt;#??#&gt; {
+    if (!_&lt;#??#&gt;) {
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+//        layout.minimumInteritemSpacing = 6;
+//        layout.minimumLineSpacing = 6;
+//        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        CGFloat mutiply = &lt;#??#&gt;;
+        CGFloat cellWidth = &lt;#??#&gt;;
+        CGFloat cellHeight = cellWidth * mutiply;
+        layout.itemSize = CGSizeMake(cellWidth, cellHeight);
+        
+        &lt;#??#&gt; = [[&lt;#??#&gt; alloc] initWithFrame:CGRectZero collectionViewLayout:layout identifer:@"&lt;#??#&gt;" cellClassString:@"&lt;#??#&gt;"];
+        &lt;#??#&gt;.backgroundColor = [UIColor clearColor];
+        [self addSubview:_&lt;#??#&gt;];
+        [_&lt;#??#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.
+        }];
+    }
+    return _&lt;#??#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1603A8CD-6BE4-4A5A-95DB-514C311424BE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>llc</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>llc</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

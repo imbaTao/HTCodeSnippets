@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>llv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIView *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = [[UIView alloc] init];
+        [self addSubview:_&lt;#name#&gt;];
+        [_&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+        }];
+    }
+    return _&lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>754F9A4C-EF18-429E-A502-AD179A836C17</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>llv</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>llv</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
