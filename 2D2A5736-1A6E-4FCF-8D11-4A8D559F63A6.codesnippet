@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vv</string>
+	<string>sg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)layoutPageViews{
-    &lt;#name#&gt;
-}</string>
+	<string>UIView *segementLine = [[UIView alloc] init];
+    segementLine.backgroundColor = rgba(245, 245, 245, 1);
+    [self addSubview:segementLine];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7EC8F6B2-4779-4CBF-8AB9-EA8531CB09DD</string>
+	<string>2D2A5736-1A6E-4FCF-8D11-4A8D559F63A6</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>vv</string>
+	<string>sg</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>vv_oc</string>
+	<string>sg</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
