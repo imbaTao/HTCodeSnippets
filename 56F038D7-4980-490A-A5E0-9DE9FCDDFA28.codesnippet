@@ -9,9 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[DB_QUEUE inDatabase:^(FMDatabase * _Nonnull db) {
-        &lt;#??#&gt;
-}];</string>
+	<string>#pragma mark - Delegate</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>56F038D7-4980-490A-A5E0-9DE9FCDDFA28</string>
 	<key>IDECodeSnippetLanguage</key>

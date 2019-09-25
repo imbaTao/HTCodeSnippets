@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
+	<string>Page</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)injected
-{
-    for (UIView *value in self.view.subviews) {
-            [value removeFromSuperview];
-    }
-    
-}</string>
+	<string>NSArray *tempData = [JHGGroupShoppingProdInfoModel mj_objectArrayWithKeyValuesArray:data[@"List"]];
+if (page == 1) {
+    self.data = tempData;
+}else {
+    self.data = [self.data arrayByAddingObjectsFromArray:tempData];
+}
+[subscriber sendNext:@(self.data.count)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>476998F0-AB11-438B-829C-9413AEA99452</string>
+	<string>0C7646BC-CA42-4031-BE6B-29750CF3BA62</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ii</string>
+	<string>Page</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ii</string>
+	<string>Page</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

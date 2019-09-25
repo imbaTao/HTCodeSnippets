@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
+	<string>bb</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)injected
-{
-    for (UIView *value in self.view.subviews) {
-            [value removeFromSuperview];
-    }
-    
-}</string>
+	<string>/**
+ &lt;#description#&gt;
+ */
+@property(nonatomic, readwrite)BOOL &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>476998F0-AB11-438B-829C-9413AEA99452</string>
+	<string>2E1B6638-798B-4022-BEF9-E221716C2F84</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ii</string>
+	<string>bb</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ii</string>
+	<string>bb</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

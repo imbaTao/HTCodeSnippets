@@ -2,28 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)injected
-{
-    for (UIView *value in self.view.subviews) {
-            [value removeFromSuperview];
-    }
-    
-}</string>
+	<string> = data2;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>476998F0-AB11-438B-829C-9413AEA99452</string>
+	<string>EFC01F0F-441F-49D8-8CB5-62B83D8AF0B4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>ii</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ii</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
