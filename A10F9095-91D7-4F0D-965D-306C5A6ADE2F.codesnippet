@@ -3,21 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HH1</string>
+	<string>hh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[subscriber sendError:HZY_ERROR(@"网络请求失败，请检查网络或稍后尝试", error.code)];</string>
+	<string>#if DEBUG
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(hotReload) name:@"INJECTION_BUNDLE_NOTIFICATION" object:nil];
+#endif
+}
+
+
+- (void)hotReload {
+    [self removeAllViews:self.view];
+    [self viewDidLoad];
+}
+
+- (void)removeAllViews:(UIView *)view {
+    while (view.subviews.count) {
+        UIView* child = view.subviews.lastObject;
+        [child removeFromSuperview];
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>30EDC1A6-0798-4C24-A0C0-992A91519FF5</string>
+	<string>A10F9095-91D7-4F0D-965D-306C5A6ADE2F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HH1</string>
+	<string>hh</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>notNetError</string>
+	<string>hh</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

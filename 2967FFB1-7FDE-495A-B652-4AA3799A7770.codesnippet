@@ -9,11 +9,11 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.&lt;#??#&gt;
-        make.&lt;#??#&gt;
-        make.&lt;#??#&gt;
-    }];</string>
+	<string> [&lt;#??#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+     make.&lt;#??#&gt;
+     make.&lt;#??#&gt;
+     make.&lt;#??#&gt;
+     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2967FFB1-7FDE-495A-B652-4AA3799A7770</string>
 	<key>IDECodeSnippetLanguage</key>

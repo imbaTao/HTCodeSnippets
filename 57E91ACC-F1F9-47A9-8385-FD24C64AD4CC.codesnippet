@@ -22,7 +22,9 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>57E91ACC-F1F9-47A9-8385-FD24C64AD4CC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>lll</string>
 	<key>IDECodeSnippetTitle</key>

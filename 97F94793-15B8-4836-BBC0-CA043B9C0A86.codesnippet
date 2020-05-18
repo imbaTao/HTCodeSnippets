@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HH</string>
+	<string>ff</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[subscriber sendError:HZY_ERROR([result objectForKey:@"message"],[result objectForKey:@"code"])];</string>
+	<string>func &lt;#name#&gt;() {
+    &lt;#function body#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2DEBE324-F4D9-44AB-B2E7-059D17F2D720</string>
+	<string>97F94793-15B8-4836-BBC0-CA043B9C0A86</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HH</string>
+	<string>ff</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>un200</string>
+	<string>ff</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,17 +9,11 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setupUI {
+	<string>@weakify(self);
+[self setupLayout:^{
+    @strongify(self);
     &lt;#??#&gt;
-    
-    // layout
-    [self setupLayout];
-}
-
-- (void)setupLayout {
-    [self addMemberSubViews];
-    &lt;#??#&gt;
-}</string>
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2F4A41A1-5233-4C2C-B8DE-8A5CE7BC9CC2</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>DD</string>
+	<string>ssw</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc
-{
-    int a = 0;
-    a = 0;
-    BWLog(@"释放了");
-}
-</string>
+	<string>subscribe(onNext: {[weak self] &lt;#??#&gt; in
+    
+        }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>56F038D7-4980-490A-A5E0-9DE9FCDDFA28</string>
+	<string>5AF98201-E2A9-4DED-9032-73B08A766935</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>DD</string>
+	<string>ssw</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>DD</string>
+	<string>ssw</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
