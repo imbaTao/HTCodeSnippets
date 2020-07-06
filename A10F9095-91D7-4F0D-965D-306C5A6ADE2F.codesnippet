@@ -10,16 +10,20 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#if DEBUG
-    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(hotReload) name:@"INJECTION_BUNDLE_NOTIFICATION" object:nil];
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+         [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(hotReload) name:@"INJECTION_BUNDLE_NOTIFICATION" object:nil];
+    });
 #endif
 }
 
-
+// 热刷新UI代码，不用可以注释掉，不调用
 - (void)hotReload {
     [self removeAllViews:self.view];
     [self viewDidLoad];
 }
 
+// 热刷新UI代码，不用可以注释掉，不调用
 - (void)removeAllViews:(UIView *)view {
     while (view.subviews.count) {
         UIView* child = view.subviews.lastObject;
