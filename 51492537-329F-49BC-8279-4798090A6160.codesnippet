@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mm</string>
+	<string>rr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>mas_makeConstraints:^(MASConstraintMaker *make) {
-    make.&lt;#??#&gt;
-    }];</string>
+	<string>// 暂时屏蔽</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F184B092-757D-434E-AA36-D6D2B4336645</string>
+	<string>51492537-329F-49BC-8279-4798090A6160</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mm</string>
+	<string>rr</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mm</string>
+	<string>rr</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
