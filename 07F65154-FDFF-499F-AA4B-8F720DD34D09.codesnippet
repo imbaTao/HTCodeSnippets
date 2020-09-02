@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe(onNext: {[weak self] (_) in
-    &lt;#code#&gt;
-}).disposed(by: rx.disposeBag)</string>
+	<string>QMUIAlbumViewController *albumViewController = [[QMUIAlbumViewController alloc] init];
+     albumViewController.albumViewControllerDelegate = self;
+     albumViewController.contentType = kAlbumContentType;
+     albumViewController.title = title;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5AF98201-E2A9-4DED-9032-73B08A766935</string>
+	<string>07F65154-FDFF-499F-AA4B-8F720DD34D09</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ss</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ss</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

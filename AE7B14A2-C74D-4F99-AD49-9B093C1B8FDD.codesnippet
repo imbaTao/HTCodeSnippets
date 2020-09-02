@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>ios13</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe(onNext: {
-                &lt;#??#&gt;
-            }).disposed(by: rx.disposeBag)</string>
+	<string>if #available(iOS 13.0, *) {
+              &lt;#??#&gt;
+        } else {
+             // Fallback on earlier versions
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A37FA5D0-C271-4CE6-963E-CDF105E2BD92</string>
+	<string>AE7B14A2-C74D-4F99-AD49-9B093C1B8FDD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ss</string>
+	<string>ios13</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ss</string>
+	<string>ios13</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

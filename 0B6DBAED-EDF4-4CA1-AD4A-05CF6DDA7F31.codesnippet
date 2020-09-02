@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>TT</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe(onNext: {[weak self] (_) in
-    &lt;#code#&gt;
-}).disposed(by: rx.disposeBag)</string>
+	<string>#if DEBUG
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "INJECTION_BUNDLE_NOTIFICATION"), object: nil, queue: .main) { (notifi) in
+            &lt;#??#&gt;
+        }
+        #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5AF98201-E2A9-4DED-9032-73B08A766935</string>
+	<string>0B6DBAED-EDF4-4CA1-AD4A-05CF6DDA7F31</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ss</string>
+	<string>TT</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ss</string>
+	<string>TT</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>HTAfter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe(onNext: {[weak self] (_) in
-    &lt;#code#&gt;
-}).disposed(by: rx.disposeBag)</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: .now()) {
+            &lt;#??#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5AF98201-E2A9-4DED-9032-73B08A766935</string>
+	<string>1D13A7F1-02D6-4275-9EEB-10BD1838B400</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ss</string>
+	<string>HTAfter</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ss</string>
+	<string>HTAfter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
