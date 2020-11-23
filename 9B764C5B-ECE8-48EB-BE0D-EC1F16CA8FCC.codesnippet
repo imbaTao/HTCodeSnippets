@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tempView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let tempView1 = UIView.fetchContainerViewWithRadius(radius: 8, color: .red,size: htSize(246,49))
+        self.view.addSubview(tempView1)
+        tempView1.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9B764C5B-ECE8-48EB-BE0D-EC1F16CA8FCC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tempView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tempView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
