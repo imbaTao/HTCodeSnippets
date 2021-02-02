@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rr</string>
+	<string>TTGet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in
-            
-        }).disposed(by: rx.disposeBag)</string>
+	<string>TTNet.requst(type:.get,api: "&lt;#??#&gt;", parameters: &lt;#??#&gt;).subscribe {[weak self] (model) in
+            &lt;#??#&gt;
+        } onError: { (error) in
+            &lt;#??#&gt;
+        }.disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51492537-329F-49BC-8279-4798090A6160</string>
+	<string>C28BF6F4-C43D-4100-BC09-A9FF640F2061</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>rr</string>
+	<string>TTGet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>rr</string>
+	<string>TTGet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

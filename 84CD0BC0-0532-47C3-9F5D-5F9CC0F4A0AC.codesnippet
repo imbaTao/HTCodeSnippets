@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rr</string>
+	<string>TTMakeUI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in
-            
-        }).disposed(by: rx.disposeBag)</string>
+	<string>override func makeUI() {
+        super.makeUI()
+        &lt;#??#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51492537-329F-49BC-8279-4798090A6160</string>
+	<string>84CD0BC0-0532-47C3-9F5D-5F9CC0F4A0AC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>rr</string>
+	<string>TTMakeUI</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>rr</string>
+	<string>TTMakeUI</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

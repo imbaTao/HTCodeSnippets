@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>subscribe(onNext: {[weak self] (_) in
+	<string>subscribe(onNext: {[weak self] (&lt;#_#&gt;) in guard let self = self else { return }
     &lt;#code#&gt;
 }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>

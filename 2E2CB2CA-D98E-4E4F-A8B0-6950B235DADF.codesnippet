@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]</string>
+	<string>[weak self]  in guard let self = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2E2CB2CA-D98E-4E4F-A8B0-6950B235DADF</string>
 	<key>IDECodeSnippetLanguage</key>

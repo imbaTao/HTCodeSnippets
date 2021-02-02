@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rr</string>
+	<string>TTFor</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in
-            
-        }).disposed(by: rx.disposeBag)</string>
+	<string>for index in 0..&lt;&lt;#?#&gt; {
+            &lt;#??#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51492537-329F-49BC-8279-4798090A6160</string>
+	<string>07D8E23D-A8F3-41B2-8C39-3EF1E363EF8A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>rr</string>
+	<string>TTFor</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>rr</string>
+	<string>TTFor</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

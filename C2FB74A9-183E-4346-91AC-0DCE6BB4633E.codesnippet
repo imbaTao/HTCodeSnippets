@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rr</string>
+	<string>cc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in
+	<string>        return Single&lt;()&gt;.create {(single) -&gt; Disposable in
+            &lt;#??#&gt;
             
-        }).disposed(by: rx.disposeBag)</string>
+            single(.success(()))
+            return Disposables.create {}
+        }.observeOn(MainScheduler.instance)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51492537-329F-49BC-8279-4798090A6160</string>
+	<string>C2FB74A9-183E-4346-91AC-0DCE6BB4633E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>rr</string>
+	<string>cc</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>rr</string>
+	<string>cc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

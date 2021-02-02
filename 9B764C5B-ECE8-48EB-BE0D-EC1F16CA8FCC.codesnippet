@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let tempView1 = UIView.fetchContainerViewWithRadius(radius: 8, color: .red,size: htSize(246,49))
+	<string>let tempView1 = UIView.fetchContainerViewWithRadius(radius: 8, color: .red,size: ttSize(246,49))
         self.view.addSubview(tempView1)
         tempView1.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
