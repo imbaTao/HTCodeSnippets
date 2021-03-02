@@ -9,8 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in
-            
+	<string>rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in guard let self = self else { return }
+
         }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>51492537-329F-49BC-8279-4798090A6160</string>
