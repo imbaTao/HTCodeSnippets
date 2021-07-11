@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark_sw</string>
+	<string>www</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// MARK: - &lt;#what#&gt;</string>
+	<string>[weak self] in</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA74CD4B-F25F-4443-8A7D-C1850F05DC91</string>
+	<string>1284B16C-0160-4B25-A5D6-11231B013356</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark_sw</string>
+	<string>www</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark_sw</string>
+	<string>[weak self]</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

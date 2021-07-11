@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark_sw</string>
+	<string>UU</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// MARK: - &lt;#what#&gt;</string>
+	<string>// &lt;#??????#&gt;
+UMEvent(eventId: "&lt;#??#&gt;")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA74CD4B-F25F-4443-8A7D-C1850F05DC91</string>
+	<string>C0356145-D27D-4D60-BC09-8201E442562F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark_sw</string>
+	<string>UU</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark_sw</string>
+	<string>UU</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
