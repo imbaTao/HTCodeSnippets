@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#??#&gt;.snp.makeConstraints { (make) in
+	<string>snp.makeConstraints { (make) in
     make.&lt;#??#&gt;
     make.&lt;#??#&gt;
 }</string>
