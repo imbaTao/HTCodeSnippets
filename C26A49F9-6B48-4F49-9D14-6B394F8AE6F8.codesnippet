@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vv</string>
+	<string>sss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func &lt;#voidFunc#&gt;() {
-        
-    }</string>
+	<string>subscribe(onSuccess: { (&lt;#??#&gt;) in
+                    &lt;#code#&gt;
+                }, onError: { (error) in
+                    &lt;#code#&gt;
+                }).disposed(by: self?.rx.disposeBag ?? DisposeBag())</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18C402B3-D052-4381-BC93-74B30617A10C</string>
+	<string>C26A49F9-6B48-4F49-9D14-6B394F8AE6F8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>vv</string>
+	<string>sss</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>vv</string>
+	<string>sss</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

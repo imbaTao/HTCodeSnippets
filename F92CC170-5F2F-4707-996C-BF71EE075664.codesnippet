@@ -9,17 +9,29 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)layoutPageViews{
-    &lt;#name#&gt;
+	<string>class &lt;#??#&gt;: TTViewModel,ViewModelType {
+    // 输入事件信号
+    struct Input {
+        
+    }
+    
+    // 输出信号
+    struct Output {
+    
+    }
+    
+    func transform(input: Input) -&gt; Output {
+        return Output()
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7EC8F6B2-4779-4CBF-8AB9-EA8531CB09DD</string>
+	<string>F92CC170-5F2F-4707-996C-BF71EE075664</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>vv</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>vv_oc</string>
+	<string>vv</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

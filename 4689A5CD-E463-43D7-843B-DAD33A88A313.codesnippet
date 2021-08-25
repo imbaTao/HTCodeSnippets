@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#name#&gt;: TTViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    
+    override func makeUI() {
+        super.makeUI()
+        
+    }
+    
+    
+    override func bindViewModel() {
+        super.bindViewModel()
+        
+        // 默认viewModel类型转换
+        if let viewModel = viewModel as? &lt;#??#&gt; {
+            
+            // 输入事件流
+            let input = &lt;#??#&gt;.Input.
+            
+            // 输出事件流
+            let output = viewModel.transform(input: input)
+            
+            output.
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4689A5CD-E463-43D7-843B-DAD33A88A313</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTVC</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTVC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
