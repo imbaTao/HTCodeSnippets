@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark_sw</string>
+	<string>dss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#what#&gt;</string>
+	<string>drive(onNext: { [weak self]  in guard let self = self else { return }
+               
+            }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA74CD4B-F25F-4443-8A7D-C1850F05DC91</string>
+	<string>2F4F92FA-5D22-4472-8BCF-FECA38975B1A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mark_sw</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark_sw</string>
+	<string>dss</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
