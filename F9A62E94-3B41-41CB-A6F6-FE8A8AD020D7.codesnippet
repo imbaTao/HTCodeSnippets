@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTSwitch</string>
+	<string>TTGlobal</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> switch &lt;#??#&gt; {
-        case &lt;#??#&gt;:
-            &lt;#??#&gt;
-        default:
-            break
-        }</string>
+	<string>DispatchQueue.global().async {
+                &lt;#??#&gt;
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5187383C-E71F-4C42-8DC2-3E78C90D1218</string>
+	<string>F9A62E94-3B41-41CB-A6F6-FE8A8AD020D7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTSwitch</string>
+	<string>TTGlobal</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTSwitch</string>
+	<string>TTGlobal</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

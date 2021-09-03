@@ -3,26 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTSwitch</string>
+	<string>TTCreatViewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> switch &lt;#??#&gt; {
-        case &lt;#??#&gt;:
-            &lt;#??#&gt;
-        default:
-            break
-        }</string>
+	<string>class &lt;#name#&gt;: TTViewModel{
+    // 输入事件信号
+    struct Input {
+
+    }
+    
+    // 输出信号
+    struct Output {
+
+    }
+    
+    func transform(input: Input) -&gt; Output {
+        return Output.init()
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5187383C-E71F-4C42-8DC2-3E78C90D1218</string>
+	<string>18E94A41-4522-478E-BCD5-A5C4C12392CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTSwitch</string>
+	<string>TTCreatViewModel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTSwitch</string>
+	<string>TTCreatViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

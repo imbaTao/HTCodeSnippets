@@ -9,10 +9,10 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>snp.makeConstraints { (make) in
-    make.&lt;#??#&gt;
-    make.&lt;#??#&gt;
-}</string>
+	<string>        &lt;#??#&gt;.snp.makeConstraints { (make) in
+            make.&lt;#??#&gt;
+            make.&lt;#??#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>90DEAD26-F4E3-4A37-854D-B36C96EBC157</string>
 	<key>IDECodeSnippetLanguage</key>
