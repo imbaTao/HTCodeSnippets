@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTThrottle</string>
+	<string>TTBehaviorRelay</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>throttle(.milliseconds(500),latest: false, scheduler: MainScheduler.instance)</string>
+	<string>// &lt;#??#&gt;
+let &lt;#??#&gt; = BehaviorRelay&lt;&lt;#??#&gt;&gt;.init(value: &lt;#??#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C93FF39C-2545-4242-92BC-8FBEF6BF454A</string>
+	<string>588162E6-2C98-451C-9C29-2FCC7D0EA803</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTThrottle</string>
+	<string>TTBehaviorRelay</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTThrottle</string>
+	<string>TTBehaviorRelay</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

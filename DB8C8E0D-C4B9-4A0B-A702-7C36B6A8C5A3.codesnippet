@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTQuickTableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class 替换符VC: TTTableViewController {
+    override func makeUI() {
+        super.makeUI()
+        tableView = TTSingleTypeCellFormTableView.init(style: .plain)
+        addSubviews([tableView])
+        tableView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+        
+        // config
+        title = ""
+    }
+    
+    override func bindViewModel() {
+        super.bindViewModel()
+        if let viewModel = viewModel as? 替换符VCViewModel,let tableView = tableView as? TTSingleTypeCellFormTableView {
+            viewModel.items.map{$0 as! [TTTableViewCellViewModel]}.bind(to: tableView.items).disposed(by: rx.disposeBag)
+        }
+    }
+}
+
+
+class 替换符VCViewModel: TTTableViewViewModel,TTViewModelType {
+    // 输入事件信号
+    struct Input {
+        
+    }
+    
+    // 输出信号
+    struct Output {
+        
+    }
+    
+    let items = BehaviorRelay&lt;[替换符CellViewModel]&gt;.init(value: [])
+    
+    func transform(input: Input) -&gt; Output {
+        return Output.init()
+    }
+}
+
+
+class 替换符Cell: TTTableViewCell {
+    override func makeUI() {
+        super.makeUI()
+        addSubviews([&lt;#??#&gt;])
+    }
+}
+
+
+class 替换符CellViewModel: TTTableViewCellViewModel {
+    let itemRelay: BehaviorRelay&lt;&lt;#??#&gt;&gt;!
+
+    init(_ item: &lt;#??#&gt;) {
+        itemRelay = .init(value: item)
+        super.init()
+
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DB8C8E0D-C4B9-4A0B-A702-7C36B6A8C5A3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTQuickTableVC</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTQuickTableVC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

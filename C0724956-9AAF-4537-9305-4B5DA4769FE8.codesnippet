@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTThrottle</string>
+	<string>TTAlertSetup</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>throttle(.milliseconds(500),latest: false, scheduler: MainScheduler.instance)</string>
+	<string>override func setupConfig() {
+        super.setupConfig()
+        &lt;#??#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C93FF39C-2545-4242-92BC-8FBEF6BF454A</string>
+	<string>C0724956-9AAF-4537-9305-4B5DA4769FE8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTThrottle</string>
+	<string>TTAlertSetup</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTThrottle</string>
+	<string>TTAlertSetup</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTThrottle</string>
+	<string>TTDeprecaded</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>throttle(.milliseconds(500),latest: false, scheduler: MainScheduler.instance)</string>
+	<string>@available(*, deprecated, message: "&lt;#??#&gt;")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C93FF39C-2545-4242-92BC-8FBEF6BF454A</string>
+	<string>31B45DDC-8826-4B86-978E-37122D173C98</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTThrottle</string>
+	<string>TTDeprecaded</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTThrottle</string>
+	<string>TTDeprecaded</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
