@@ -9,11 +9,16 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let tempView1 = UIView.fetchContainerViewWithRadius(radius: 8, color: .red,size: ttSize(246,49))
+	<string>        let tempView1 = UIButton.regular(size: 18, textColor: .red, text: "我是测试按钮")
+        tempView1.backgroundColor = .gray
         self.view.addSubview(tempView1)
         tempView1.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
-        }</string>
+        }
+        
+        tempView1.rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in guard let self = self else { return }
+            &lt;#??#&gt;
+        }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9B764C5B-ECE8-48EB-BE0D-EC1F16CA8FCC</string>
 	<key>IDECodeSnippetLanguage</key>

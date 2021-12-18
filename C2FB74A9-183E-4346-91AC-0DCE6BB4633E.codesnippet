@@ -9,12 +9,12 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        return Single&lt;()&gt;.create {(single) -&gt; Disposable in
-            &lt;#??#&gt;
+	<string>        return Single&lt;Void&gt;.create {(single) -&gt; Disposable in
+            
             
             single(.success(()))
             return Disposables.create {}
-        }.observeOn(MainScheduler.instance)</string>
+        }.observeOn(MainScheduler.instance).asObservable()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C2FB74A9-183E-4346-91AC-0DCE6BB4633E</string>
 	<key>IDECodeSnippetLanguage</key>

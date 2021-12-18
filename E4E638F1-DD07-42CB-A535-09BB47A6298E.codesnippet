@@ -3,28 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTTableViewBindViewModel</string>
+	<string>TTSubscribeSuccess</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>viewModel.items.bind(to: tableView.rx.items) { (tableView,row,model) in
-                let indexPath = IndexPath.init(row: row, section: 0)
-                let cell = tableView.dequeueReusableCell(withIdentifier: "OnMicRecordCell", for: indexPath) as! OnMicRecordCell
-  
-                &lt;#??#&gt;
-
-                return cell
-            }</string>
+	<string>                .subscribe { (_) in
+                    
+                } onError: { (error) in
+                    
+                }.disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9C90F1DD-5706-412E-B2BE-79E5B1BD3755</string>
+	<string>E4E638F1-DD07-42CB-A535-09BB47A6298E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTTableViewBindViewModel</string>
+	<string>TTSubscribeSuccess</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTTableViewBindViewModel</string>
+	<string>TTSubscribeSuccess</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

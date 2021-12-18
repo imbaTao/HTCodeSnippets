@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTThrottle</string>
+	<string>TTJustSubscribe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>throttle(.milliseconds(500),latest: false, scheduler: MainScheduler.instance)</string>
+	<string>subscribe().disposed(by: self.rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C93FF39C-2545-4242-92BC-8FBEF6BF454A</string>
+	<string>6C159F4A-C2D8-47CF-8686-4C215C82A036</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTThrottle</string>
+	<string>TTJustSubscribe</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTThrottle</string>
+	<string>TTJustSubscribe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
