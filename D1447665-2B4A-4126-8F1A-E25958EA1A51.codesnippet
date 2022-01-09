@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>.disposed(by: rx.disposeBag)</string>
+	<string>disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D1447665-2B4A-4126-8F1A-E25958EA1A51</string>
 	<key>IDECodeSnippetLanguage</key>
