@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ds</string>
+	<string>wwe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>disposed(by: rx.disposeBag)</string>
+	<string>[weak self]  in guard let self = self else { return .empty()}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D1447665-2B4A-4126-8F1A-E25958EA1A51</string>
+	<string>C2B76A2A-6E52-4590-B2DE-3BDBA8A6CAA6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ds</string>
+	<string>wwe</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ds</string>
+	<string>wwe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
