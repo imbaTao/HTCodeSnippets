@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTCreatViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#??#&gt;: TTViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    override func makeUI() {
+        super.makeUI()
+        
+    }
+    
+    
+    override func bindViewModel() {
+        super.bindViewModel()
+        
+    }
+
+    @objc func injected() {
+        view.backgroundColor = .white
+        view.qmui_removeAllSubviews()
+        makeUI()
+    }
+
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CCF33273-5048-4EA0-864B-E841ABFFD8B2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTCreatViewController</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTCreatViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        let tempView1 = UIButton.regular(size: 18, textColor: .red, text: "我是测试按钮")
+	<string>        let tempView1 = UIButton.regular(size: 18, textColor: .white, text: "我是测试按钮")
         tempView1.backgroundColor = .gray
         self.view.addSubview(tempView1)
         tempView1.snp.makeConstraints { (make) in

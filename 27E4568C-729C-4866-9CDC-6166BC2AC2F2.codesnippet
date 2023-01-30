@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>WW</string>
+	<string>ttAddSubview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(self);</string>
+	<string>public override func addSubviews(_ subviews: [UIView]) {
+        subviews.forEach { view in
+            if view == &lt;#??#&gt; {
+                super.addSubview(view)
+            }else {
+                &lt;#??#&gt;.addSubview(view)
+            }
+        }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>122BD7D5-74B5-4949-8352-D7D58E978F45</string>
+	<string>27E4568C-729C-4866-9CDC-6166BC2AC2F2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>WW</string>
+	<string>ttAddSubview</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WW</string>
+	<string>ttAddSubview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTQuickCollectionViewListVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class 替换符VC: TTViewController {
+    let mainList = TTSingleCellTypeCollectionView&lt;替换符ListCell&gt; { config in
+        let cellWidth = (CGFloat.screenWidth - 5) / 2
+        let cellHeight = cellWidth * 16.0 / 9.0
+        config.itemSize = .init(width: cellWidth, height: cellHeight)
+        config.horizotalSpacing = 5
+        config.verticalSpacing = 5
+    }
+
+    override func setupUI() {
+        super.setupUI()
+        addSubView(mainList)
+        
+        // test
+        mainList.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+    }
+}
+
+
+class 替换符ListCell: TTVersatileCollectionViewCell {
+    override func setupUI() {
+        super.setupUI()
+        addSubviews([titleLabel])
+        
+        titleLabel.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+    }
+    
+    override func bindViewModel(_ viewModel: TTCollectionViewCellViewModel) {
+        super.bindViewModel(viewModel)
+        if let viewModel = viewModel as? 替换符ListCellViewModel {
+            viewModel.titleRelay.bind(to: titleLabel.rx.text).disposed(by: cellDisposeBag)
+        }
+    }
+}
+
+class 替换符ListCellViewModel: TTVersatileTableViewCellViewModel {
+  
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0ECAFA9B-29AE-40CF-A133-9BC6CCE3A261</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTQuickCollectionViewListVC</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTQuickCollectionViewListVC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
