@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
+	<string>ttshared</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)injected
-{
-    for (UIView *value in self.view.subviews) {
-            [value removeFromSuperview];
-    }
-    
-}</string>
+	<string>static let shared = &lt;#??#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>476998F0-AB11-438B-829C-9413AEA99452</string>
+	<string>0DEE4E7F-71AF-4292-B727-AFC7F345AE22</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ii</string>
+	<string>ttshared</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ii</string>
+	<string>ttshared</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

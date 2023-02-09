@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ii</string>
+	<string>TTInjected</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)injected
-{
-    for (UIView *value in self.view.subviews) {
-            [value removeFromSuperview];
-    }
-    
-}</string>
+	<string>@objc func injected() {
+        view.removeSubviews()
+        &lt;#??#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>476998F0-AB11-438B-829C-9413AEA99452</string>
+	<string>BD7053CC-5CCA-4460-AA30-D975BA60898E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ii</string>
+	<string>TTInjected</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ii</string>
+	<string>TTInjected</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
