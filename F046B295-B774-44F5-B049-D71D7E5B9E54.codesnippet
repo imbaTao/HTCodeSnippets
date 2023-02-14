@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTInputOutput</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>override func setupEvents() {
+    super.setupEvents()
+    let &lt;#??#&gt; = &lt;#??#&gt;.rx.controlEvent(.touchUpInside).asObservable().map{}
+    let input = &lt;#??#&gt;.Input()
+    let output = viewModel.transform(input: input)
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F046B295-B774-44F5-B049-D71D7E5B9E54</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTSetupEvents</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTSetupEvents</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
