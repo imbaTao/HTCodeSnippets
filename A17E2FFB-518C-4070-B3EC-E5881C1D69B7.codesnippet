@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TTGridList</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 列表视图
+class GridListVC: TTBussinessCollectionController&lt;TTBussinessListViewModel&gt;,TTBussinessBasicComponentsProtocol {
+    override func setupUI() {
+        super.setupUI()
+        let mainList = mainListView.asTTCollectionView()
+        mainList.updateConfig { config in
+            config.cellTypes = [GridListCell.self]
+            config.itemSize = CGSize.init(width: (.screenWidth  - 6 * 12) / 4, height: (.screenWidth  - 6 * 12) / 6 * 4 / 3.0)
+            config.horizotalSpacing = 30
+            config.verticalSpacing = 12
+        }
+        addSubview(mainListView)
+        mainListView.snp.remakeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+#if DEBUG
+        
+#endif
+    }
+    
+
+    @objc func injected() {
+        view.removeSubviews()
+        setupUI()
+        viewModel.items.accept([
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel(),
+            TTBussinessListCellViewModel()
+        ])
+    }
+}
+
+class GridListCell: TTBussinessCollectionViewCell {
+    override func setupUI() {
+        super.setupUI()
+        addSubviews([icon,titleLabel])
+        
+        
+        icon.image = TTIcons.test()
+        titleLabel.text = "名字"
+        
+        
+        // config
+        titleLabel.config(font: .regular(12), textColor: .black,alignment: .center)
+        
+        // layout
+        icon.snp.makeConstraints { (make) in
+            make.top.equalTo(12)
+            make.size.equalTo(CGSize.equal(60))
+            make.centerX.equalToSuperview()
+        }
+        
+        titleLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(icon.snp.bottom).offset(4)
+            make.left.right.equalToSuperview().inset(8)
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A17E2FFB-518C-4070-B3EC-E5881C1D69B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TTGridList</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TTGridList</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
