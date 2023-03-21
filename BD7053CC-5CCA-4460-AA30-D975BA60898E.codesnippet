@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@objc func injected() {
-        view.removeSubviews()
-        &lt;#??#&gt;
-    }</string>
+    removeSubviews()
+    setupUI()
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BD7053CC-5CCA-4460-AA30-D975BA60898E</string>
 	<key>IDECodeSnippetLanguage</key>
