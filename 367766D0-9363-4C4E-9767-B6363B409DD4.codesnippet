@@ -2,18 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>QuickSetup</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#???#&gt;</string>
+	<string>override func viewDidLoad() {
+    super.viewDidLoad()
+    
+}
+
+override func setupUI() {
+    super.setupUI()
+    
+}
+
+override func setupEvents() {
+    super.setupEvents()
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>27DA5AE4-BA65-4E97-81CA-7093EF94B406</string>
+	<string>367766D0-9363-4C4E-9767-B6363B409DD4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>QuickSetup</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>QuickSetup</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

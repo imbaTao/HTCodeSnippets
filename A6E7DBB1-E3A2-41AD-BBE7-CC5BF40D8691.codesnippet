@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTMakeUI</string>
+	<string>vv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>override func makeUI() {
-        super.makeUI()
-    addSubviews([&lt;#??#&gt;])
-    }</string>
+	<string>guard let viewModel = viewModel as? &lt;#??#&gt; else {
+            return
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84CD0BC0-0532-47C3-9F5D-5F9CC0F4A0AC</string>
+	<string>A6E7DBB1-E3A2-41AD-BBE7-CC5BF40D8691</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTMakeUI</string>
+	<string>vv</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTMakeUI</string>
+	<string>vv</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

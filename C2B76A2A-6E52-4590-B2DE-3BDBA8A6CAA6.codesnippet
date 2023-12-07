@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self]  in guard let self = self else { return .empty()}</string>
+	<string>[weak self] _ -&gt; Observable&lt;Void&gt; in guard let self = self else { return .empty()}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C2B76A2A-6E52-4590-B2DE-3BDBA8A6CAA6</string>
 	<key>IDECodeSnippetLanguage</key>

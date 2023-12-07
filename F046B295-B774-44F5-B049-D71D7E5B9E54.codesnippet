@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTInputOutput</string>
+	<string>QuickEvents</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -11,7 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func setupEvents() {
     super.setupEvents()
-    let &lt;#??#&gt; = &lt;#??#&gt;.rx.controlEvent(.touchUpInside).asObservable().map{}
+    guard let viewModel = viewModel as? &lt;#??#&gt; else{
+        return
+    }
+    
     let input = &lt;#??#&gt;.Input()
     let output = viewModel.transform(input: input)
 }</string>
@@ -20,9 +23,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTSetupEvents</string>
+	<string>QuickEvents</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTSetupEvents</string>
+	<string>QuickEvents</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

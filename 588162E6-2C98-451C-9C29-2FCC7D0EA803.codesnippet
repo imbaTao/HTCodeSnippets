@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>TTBehaviorRelay</string>
+	<string>DxBehaviorRelay</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// &lt;#??#&gt;
-let &lt;#??#&gt; = BehaviorRelay&lt;&lt;#??#&gt;&gt;.init(value: &lt;#??#&gt;)</string>
+	<string>// 数据源
+public let items = BehaviorRelay&lt;[&lt;#??#&gt;]&gt;(value: [])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>588162E6-2C98-451C-9C29-2FCC7D0EA803</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTBehaviorRelay</string>
+	<string>DxBehaviorRelay</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTBehaviorRelay</string>
+	<string>DxBehaviorRelay</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

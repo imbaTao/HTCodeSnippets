@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@objc func injected() {
-        view.backgroundColor = .white
-        view.removeSubviews()   
-    }</string>
+    removeSubviews()
+    setupUI()
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>91859D0D-831C-4B7F-B99F-BB8C5C559510</string>
 	<key>IDECodeSnippetLanguage</key>

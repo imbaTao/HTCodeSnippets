@@ -9,29 +9,24 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class 替换符VC: TTTableViewController {
-    override func makeUI() {
-        super.makeUI()
-        tableView = TTSingleTypeCellFormTableView.init(style: .plain)
-        addSubviews([tableView])
-        tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+	<string>class 替换符VC: DxBussinessTableViewController {
+    override func setupUI() {
+        super.setupUI()
+        let mainList = DxTableView.init { config in
+            config.cellTypes = [DxTableViewCell.self]
+            config.style = .plain
+            config.fixedRowHeight = 96
         }
-        
-        // config
-        title = ""
     }
     
-    override func bindViewModel() {
-        super.bindViewModel()
-        if let viewModel = viewModel as? 替换符VCViewModel,let tableView = tableView as? TTSingleTypeCellFormTableView {
-            viewModel.items.map{$0 as! [TTTableViewCellViewModel]}.bind(to: tableView.items).disposed(by: rx.disposeBag)
-        }
+
+    override func setupEvents() {
+        super.setupEvents()
     }
 }
 
 
-class 替换符VCViewModel: TTTableViewViewModel,TTViewModelType {
+class 替换符VCViewModel: DxBussinessListViewModel,DxViewModelType {
     // 输入事件信号
     struct Input {
         
@@ -41,40 +36,37 @@ class 替换符VCViewModel: TTTableViewViewModel,TTViewModelType {
     struct Output {
         
     }
-    
-    let items = BehaviorRelay&lt;[替换符CellViewModel]&gt;.init(value: [])
-    
+
     func transform(input: Input) -&gt; Output {
-        return Output.init()
+        return Output()
+    }
+    
+    override func headerRefreshRequest() -&gt; Observable&lt;[DxBussinessListCellViewModel]&gt; {
+        return .just([])
     }
 }
 
 
-class 替换符Cell: TTTableViewCell {
-    override func makeUI() {
-        super.makeUI()
-        addSubviews([&lt;#??#&gt;])
+
+class 替换符CellViewModel: DxBussinessListCellViewModel {
+    
+}
+
+class 替换符Cell: DxBussinessTableViewCell {
+    override func setupUI() {
+        super.setupUI()
     }
 }
 
-
-class 替换符CellViewModel: TTTableViewCellViewModel {
-    let itemRelay: BehaviorRelay&lt;&lt;#??#&gt;&gt;!
-
-    init(_ item: &lt;#??#&gt;) {
-        itemRelay = .init(value: item)
-        super.init()
-
-    }
-}</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DB8C8E0D-C4B9-4A0B-A702-7C36B6A8C5A3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>TTQuickTableVC</string>
+	<string>QuickTableVC</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TTQuickTableVC</string>
+	<string>QuickTableVC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

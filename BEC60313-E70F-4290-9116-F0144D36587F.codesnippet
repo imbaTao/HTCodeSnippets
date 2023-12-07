@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>dsc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func &lt;#name#&gt;() {
-    &lt;#function body#&gt;
-}</string>
+	<string>disposed(by: cellDisposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E5F43B9C-C0DA-4DF4-A48C-C2CF0126C6F9</string>
+	<string>BEC60313-E70F-4290-9116-F0144D36587F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>dsc</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>dsc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

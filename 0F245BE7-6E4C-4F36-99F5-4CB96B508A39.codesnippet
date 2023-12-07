@@ -11,15 +11,19 @@
 	<key>IDECodeSnippetContents</key>
 	<string>override func setupUI() {
     super.setupUI()
-    addSubviews([&lt;#??#&gt;])
+    addSubviews([])
     
-    // config 
-    
+    // config
 #if DEBUG
-
+    
 #endif
     
     // layout
+}
+
+@objc func injected() {
+    removeSubviews()
+    setupUI()
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0F245BE7-6E4C-4F36-99F5-4CB96B508A39</string>

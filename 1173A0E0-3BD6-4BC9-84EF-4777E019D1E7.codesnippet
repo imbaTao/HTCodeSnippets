@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ttshared</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let shared = &lt;#??#&gt;</string>
+	<string>import RxSwift
+import RxCocoa
+import RxRelay
+import NSObject_Rx
+import Common</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0DEE4E7F-71AF-4292-B727-AFC7F345AE22</string>
+	<string>1173A0E0-3BD6-4BC9-84EF-4777E019D1E7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ttshared</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ttshared</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

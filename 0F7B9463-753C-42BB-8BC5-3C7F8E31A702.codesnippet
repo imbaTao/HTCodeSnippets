@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tt</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(self);
-[self setupLayout:^{
-    @strongify(self);
-    &lt;#??#&gt;
-    }];</string>
+	<string>BaseRoomIMMassage</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F4A41A1-5233-4C2C-B8DE-8A5CE7BC9CC2</string>
+	<string>0F7B9463-753C-42BB-8BC5-3C7F8E31A702</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tt</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tt</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

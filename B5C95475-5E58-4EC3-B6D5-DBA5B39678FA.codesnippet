@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>addAndLayout(subView: &lt;#??#&gt;) { (make) in
+	<string>&lt;#??#&gt;.snp.makeConstraints { (make) in
+    make.&lt;#??#&gt;
     make.&lt;#??#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

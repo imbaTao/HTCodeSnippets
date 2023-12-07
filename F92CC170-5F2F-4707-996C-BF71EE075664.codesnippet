@@ -3,25 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vv</string>
+	<string>QuickViewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#??#&gt;: TTViewModel,ViewModelType {
+	<string>import Foundation
+import RxSwift
+import RxCocoa
+import RxRelay
+import NSObject_Rx
+import Common
+
+class &lt;#??#&gt;: DxViewModel,DxViewModelType {
     // 输入事件信号
     struct Input {
-        
+        let testTrigger: Driver&lt;Void&gt;
     }
     
     // 输出信号
     struct Output {
-    
+        let testTrigger: Driver&lt;Void&gt;
     }
     
+    
+    let &lt;#??#&gt; = BehaviorRelay(value: "")
+    
     func transform(input: Input) -&gt; Output {
-        return Output()
+        return Output(testTrigger: .just(()))
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -29,9 +39,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>vv</string>
+	<string>QuickViewModel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>vv</string>
+	<string>QuickViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

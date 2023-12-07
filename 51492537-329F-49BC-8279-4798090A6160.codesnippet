@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>rx.controlEvent(.touchUpInside).subscribe(onNext: {[weak self] (_) in guard let self = self else { return }
+	<string>clickTrigger.subscribe(onNext: {[weak self] (_) in guard let self = self else { return }
 
         }).disposed(by: rx.disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>

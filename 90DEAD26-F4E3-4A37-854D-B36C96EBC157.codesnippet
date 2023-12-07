@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mm</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        &lt;#??#&gt;.snp.makeConstraints { (make) in
-            make.&lt;#??#&gt;
-            make.&lt;#??#&gt;
-        }</string>
+	<string></string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>90DEAD26-F4E3-4A37-854D-B36C96EBC157</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mm</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mm</string>
+	<string></string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
